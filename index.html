@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The <head> is not a  part of the page.
+    it only contains title and style info -->
+    <meta charset="UTF-8">
+    <meta name="description" content="armorate's website">
+    <meta name="auther" content="armorate">
+    <meta name="keywords" content="armorate, first, testing, test, html, website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- important definition for website look on defferent platforms -->
+    <title>Test Doc</title>
+    <style>
+    h1  {color:blue; font-size: 25px;}
+    p   {font-size: 19px;}
+    h2  {font-size: 13px;}
+    </style>
+</head>
+<body>  <!-- body of the page OR actual content (divided in 3 parts- header, main and footer) -->
+    <header>
+        <nav> <!-- navigation tag -->
+            <p id="#top">this is top</p> <!-- id element is used to create identity of a particular tag-->
+            <a href="https://en.wikipedia.org/wiki/Main_Page" > <!-- anchor tag -->
+                <img width="96" height="34" src="../../images/vicky.jpg" alt="Wikipedia today"/>
+            </a>
+        </nav>
+        <form style="background-color: cornflowerblue;"> <!-- form tag wraps up different input tags -->
+            <label for="login">details</label>  <!-- it's just a label-->
+            <input type="text" value="username"/>   <input type="password" placeholder="password" />  <!-- input tag (it has many type inputs see w3 list)-->
+            <button type="button">submit</button>   <br>
+            <input type="file" value="photo"/><input type="date" value="DOB"/>
+            <textarea rows="3" cols="32">write about youself</textarea>
+            <p>your fav movie?</p>
+            <input type="checkbox" value="taxi driver" id=""/>taxi driver  <!-- checkboxes - we can select multiple boxes here -->
+            <input type="checkbox" value="green book" id=""/>green book 
+            <p>you wanna study?</p>
+            <input name="btn1" type="radio" value="php"/>PHP <!-- radio boxes - we can select only one box if the boxes have same name(identity) -->
+            <input name="btn1" type="radio" value="javascript"/>javascript 
+            <select name="languages" id=""> <!-- select tag gives an dropdown option to select an option and we add options using option tag inside it -->
+                <option value="java">java</option>
+                <option value="c">c</option>
+                <option value="python">python</option>
+            </select>   <br>
+            click <input type="submit" name="submit" id="" value="here"> to submit
+        </form>
+    </header>
+    <main>
+        <iframe src="http://www.w3.org/" frameborder="0" width="400">w3 homepage</iframe> <!-- iframe is used to show another website inside of your website -->
+        <video src="../../images/Why_are_you_gay.mp4" alt="nooo" muted loop poster="../../images/vicky.jpg" width="160" controls></video> </video>
+        <video src="../../images/brah.m4a" autoplay controls></video>
+        <h1>I'm testing</h1> <!--header tags (h1 to h6)-->
+        <article>   <!-- article tag it includes several sections-->
+            <section>
+            <p style="color: rosybrown; background-color: blue;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> <!-- paragraph tag --> <hr>
+            </section>
+            <section>
+            <p>The <big>adhere</big>    <!--HTML kills white space-->        Accusantium <strong>H<sub>2</sub>O  (10)<sup>3</sup> hic </strong>natus <b>sint <i>mint</b> omnis</i> voluptatum ad,<br/> eaque quis!</p> <!-- different useful tags for texts-->
+            </section>
+            <section>
+                <table> <!-- table tag -->
+                    <thead> <!-- head part of the table -->
+                    <caption><h5>fruits and color</h5></caption> <!-- table heading or name -->
+                    <tr> <!-- table row-->
+                        <th>fruit</th> <!-- table header data -->
+                        <th>color</th>
+                    </tr>
+                    </thead>
+                    <tbody> <!-- body part of the table -->
+                        <tr>
+                        <td>grapes</td> <!-- table data -->
+                        <td>green</td>
+                    </tr>
+                    <tr>
+                        <td>mango</td>
+                        <td>yellow</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <span> span1 </span> <!-- span is an inline element which means it only captures the space needed or it doesn't captures the full width of the page -->
+                <span> span2 </span>
+            </br><hr>
+                <div> div1 </div> <!-- div is a block element which means it captures the whole width of the page or means that you can't add any other stuff in the same line as div -->
+                <div> div2 </div>
+            </section>
+        </article>  
+        <h2 style="color: blueviolet; font-size: 16px;"> Armorate's HERE   </h2>
+    </main>
+    <footer>
+        <ul>    <!-- unordered list -->
+            <li><a href="https://www.eminem.com">eminem</a></li> <!-- list item -->
+            <li>snoopdogg</li>
+                <ol type="A">   <!-- ordered list (define type for bullets)-->
+                    <li>still D.R.E.</li>
+                    <li>singh is king</li>
+                </ol>
+        </ul>
+        <dl>    <!-- description list -->
+            <dt>Mango</dt> <!-- description term -->
+            <dd>good fruit</dd> <!-- description description -->
+            <dt>apple</dt>
+            <dd>red fruit</dd>
+        </dl>
+        <a href="#top">back to top</a>
+    </footer>
+</body>
+</html>
