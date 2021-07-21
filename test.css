@@ -1,0 +1,11 @@
+a {
+  color: rgb(25, 51, 167);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h4,
+h5 {
+  color: lawngreen;
+  font-family: monospace;
+  font-size: 30px;
+}
