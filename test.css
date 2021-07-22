@@ -1,3 +1,7 @@
+* {
+  /* universal selector */
+  color: rgb(128, 115, 64);
+}
 a {
   color: rgb(25, 51, 167);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -5,14 +9,18 @@ a {
 }
 h4,
 h5 {
-  color: lawngreen;
+  /* RGB- Red Green Blue value=(0-255) */
+  color: rgb(0, 255, 0);
   font-family: monospace;
   font-size: 30px;
 }
 #top {
+  /* RGBA- RGB opacity/transparency value=(0/1) */
+  color: rgba(255, 255, 255, 0.4);
   border: 3px solid blueviolet;
 }
 .st1 {
+  /* class selector */
   color: chocolate;
 }
 .st2 {
