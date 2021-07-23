@@ -13,6 +13,18 @@ h5 {
   font-family: monospace;
   font-size: 30px;
 }
+.relative1 {
+  font-size: 1em;   /* em is relative to the parent (1em = 16px default browser style = base value) */
+}
+.relative2 {
+  font-size: 2em;
+}
+.relative3 {
+  font-size: 2rem;    /* rem is relative to the root(html style) */
+}
+.absolute {
+  font-size: 30px;  /* px is an absolute value (not dependent on any element) */
+}
 #top {
   color: rgba(
     255,
@@ -24,8 +36,8 @@ h5 {
   max-width: 400px;
 }
 .outer {
-  width: 500px;
-  height: 400px;
+  width: 150px;
+  height: 80px;
   background-color: chartreuse;
 }
 .inner /* percent - relative values*//* only works with div tag*/
@@ -37,9 +49,9 @@ h5 {
 .st1 /* class selector */ {
   font-size: 50px;
   width: 500px;
-  height: 200px;
+  height: 110px;
   color: #09b1d0; /* HEX values #RRGGBB value=(0-9-A-E) */
-  background-color: #90f4ff;
+  background-color: #093f;
 }
 .st2 {
   text-transform: uppercase;
