@@ -19,12 +19,27 @@ h5 {
     255,
     255,
     0.4
-  ); /* RGBA- A(alpha) opacity/transparency value=(0-1) */
-  border: 3px solid blueviolet;
+  ); /* RGBA- A=(alpha) opacity/transparency value=(0-1) */
+  border: 4px solid blueviolet;
+  max-width: 400px;
 }
-.st1 {
-  /* class selector */
+.outer {
+  width: 500px;
+  height: 400px;
+  background-color: chartreuse;
+}
+.inner /* percent - relative values*//* only works with div tag*/
+{
+  width: 80%;
+  height: 50%;
+  background-color: chocolate;
+}
+.st1 /* class selector */ {
+  font-size: 50px;
+  width: 500px;
+  height: 200px;
   color: #09b1d0; /* HEX values #RRGGBB value=(0-9-A-E) */
+  background-color: #90f4ff;
 }
 .st2 {
   text-transform: uppercase;
