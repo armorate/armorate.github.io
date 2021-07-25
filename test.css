@@ -1,7 +1,10 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Zen+Tokyo+Zoo&display=swap");  /* importing google fonts , always import on top of css style code */
 * {
+  margin: 0px;
   /* universal selector */ /* usually used to reset the default browser style */
   color: rgb(128, 115, 64);
 }
+
 #top {
   text-decoration: line-through;
   color: rgba(
@@ -10,18 +13,32 @@
     255,
     0.4
   ); /* RGBA- A=(alpha) opacity/transparency value=(0-1) */
-  border: 4px solid blueviolet;
+  border: 4px solid blueviolet; /* order matter > width type color */
+  border-radius: 20px;
   max-width: 400px;
+  padding-left: 60px;
+  margin-bottom: -10px;
+  font-family: "Zen Tokyo Zoo", cursive; /* the "Zen Tokyo Zoo"(imported grom google fonts) font is only gonna work when connected to internet other the default font from the family will show-up */
 }
 .banner /* a banner */ {
   width: 50vw; /* vw - view width */
   height: 10vh; /* vh - view hieght */
   background-color: #e0ca3c;
+  margin: 6px;
+  border-color: rgb(236, 10, 10);
+  border-width: 16px;
+  border-style: solid;
+  border-bottom-style: dotted;
+  border-bottom-color: darkgreen;
 }
 .banner2  /*  */ {
-  width: 96.6vw;
-  height: calc(100vh - 26vh); /* calc function (give space inbetween) */
+  width: 100vw;
+  height: calc(100vh - 96vh); /* calc function (give space inbetween) */
   background-color: #136f63;
+  margin-bottom: 32px;
+  margin-top: 20px;
+  outline: 5px solid #e0ca3c;
+  outline-offset: 12px;
 }
 a {
   text-decoration: none; /*removes underline from links*/
@@ -56,6 +73,7 @@ h5 {
 }
 .relative2 {
   font-size: 2em;
+  font-family: "Fuggles", cursive;
 }
 .relative3 {
   font-size: 2rem; /* rem is relative to the root(html style) */
@@ -75,12 +93,20 @@ h5 {
   background-color: chocolate;
 }
 .st1 /* class selector */ {
-  font-size: 50px;
-  width: 500px;
-  height: 110px;
+  font-size: 40px;
+  width: 40%;
   color: #09b1d0; /* HEX values #RRGGBB value=(0-9-A-E) */
   background-color: #093f;
   font-family: helvetica;
+  /*
+  padding-top: 150px;
+  padding-right: 100px;
+  padding-bottom: 150px;
+  padding-left: 200px;
+  */
+  /* padding: 50px; /* padding = 50px from all sides */
+  /* padding: 60px 40px; /* here padding top = bottom = 60px and right = left = 40px */
+  padding: 10px 30px 10px 90px; /* here padding form is top,right,bottom,left */
 }
 .st2 {
   text-transform: uppercase;
