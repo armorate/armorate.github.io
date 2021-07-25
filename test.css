@@ -17,7 +17,8 @@
   border-radius: 20px;
   max-width: 400px;
   padding-left: 60px;
-  margin-bottom: -10px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Zen Tokyo Zoo", cursive; /* the "Zen Tokyo Zoo"(imported grom google fonts) font is only gonna work when connected to internet other the default font from the family will show-up */
 }
 .banner /* a banner */ {
@@ -30,6 +31,7 @@
   border-style: solid;
   border-bottom-style: dotted;
   border-bottom-color: darkgreen;
+  margin-bottom: -10px;
 }
 .banner2  /*  */ {
   width: 100vw;
@@ -112,5 +114,16 @@ h5 {
   text-transform: uppercase;
 }
 .st3 {
-  color: #fff;
+  color: #136f63;
+  background-color: #fff;
+}
+.el1 {
+  background-color: aqua;
+  display: block; /* we can change display propertie of inline element (span tag) to block */
+  width: 100px;
+  margin: 3px auto; /* we can make div(block element) in center using this auto left-right propertie, it won't work on inline elements*/
+}
+.el2 {
+  background-color: #e0ca3c;
+  display: inline; /* we can change display propertie of block element (div tag) to inline */
 }
