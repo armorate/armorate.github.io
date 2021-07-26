@@ -127,3 +127,65 @@ h5 {
   background-color: #e0ca3c;
   display: inline; /* we can change display propertie of block element (div tag) to inline */
 }
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  letter-spacing: 4px;
+  background-color: aqua;
+  margin: 10px 22px;
+  padding: 6px;
+  line-height: 40px;
+}
+.ul11 {
+  background-color: bisque;
+  color: #136f63;
+  display: inline-block;
+  margin: 22px;
+}
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  color: #fff;
+}
+.box1 {
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box; /* it fixes the size of box and padding is now inside the box */
+}
+.box2 {
+  background-color: blue;
+  border: 30px;
+}
+.box3 {
+  background-color: yellow;
+  padding: 20px;
+}
+
+.d01,
+.d02,
+.d03,
+.d04,
+.d05 {
+  background-color: darkgreen;
+  margin: 10px;
+  color: #fff;
+}
+.d01 {
+  display: none;
+}
+.d02 {
+  opacity: 0;
+}
+.d03 {
+  opacity: 1;
+}
+.d04 {
+  opacity: 0.4;
+}
+.d05 {
+  visibility: hidden;
+}
