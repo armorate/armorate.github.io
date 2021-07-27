@@ -162,7 +162,7 @@ ul li a {
 }
 .box3 {
   background-color: yellow;
-  padding: 20px;
+  padding: 19px;
 }
 
 .d01,
@@ -170,7 +170,7 @@ ul li a {
 .d03,
 .d04,
 .d05 {
-  background-color: darkgreen;
+  background-color: rgb(46, 192, 46);
   margin: 10px;
   color: #fff;
 }
@@ -184,7 +184,7 @@ ul li a {
   opacity: 1;
 }
 .d04 {
-  opacity: 0.4;
+  opacity: 0.43;
 }
 .d05 {
   visibility: hidden;
