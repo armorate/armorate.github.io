@@ -1,7 +1,5 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Zen+Tokyo+Zoo&display=swap");  /* importing google fonts , always import on top of css style code */
 * {
-  margin: 0px;
-  margin-left: 5px;
   /* universal selector */ /* usually used to reset the default browser style */
   color: rgb(128, 115, 64);
 }
@@ -165,7 +163,17 @@ ul li a {
   background-color: yellow;
   padding: 19px;
 }
-
+.big-img,
+.small-img {
+  height: 400px;
+}
+.big-img {
+  background: url("/media/jupiter.jpg");
+}
+.small-img {
+  background: url("/media/beach.jpg"); /* image resolution needs to be modified or if res of image is low it will create multiple show of the image for the given space */
+  background-repeat: no-repeat;
+}
 .d01,
 .d02,
 .d03,
