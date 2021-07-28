@@ -169,10 +169,15 @@ ul li a {
 }
 .big-img {
   background: url("/media/jupiter.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 .small-img {
+  border: 3px solid green;
   background: url("/media/beach.jpg"); /* image resolution needs to be modified or if res of image is low it will create multiple show of the image for the given space */
   background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position: 40% 90%;
 }
 .d01,
 .d02,
