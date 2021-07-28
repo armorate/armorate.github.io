@@ -1,6 +1,7 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Zen+Tokyo+Zoo&display=swap");  /* importing google fonts , always import on top of css style code */
 * {
   margin: 0px;
+  margin-left: 5px;
   /* universal selector */ /* usually used to reset the default browser style */
   color: rgb(128, 115, 64);
 }
@@ -34,7 +35,7 @@
   margin-bottom: -10px;
 }
 .banner2  /*  */ {
-  width: 100vw;
+  width: 93vw;
   height: calc(100vh - 96vh); /* calc function (give space inbetween) */
   background-color: #136f63;
   margin-bottom: 32px;
