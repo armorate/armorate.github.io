@@ -223,3 +223,13 @@ ul li a {
     green
   ); /* ny default its "to bottom" */
 }
+
+.d3 {
+  background: linear-gradient(48deg, red, green);
+}
+.d4 {
+  background: linear-gradient(rgba(111, 48, 255, 0.6), rgba(0, 0, 0, 0.9));
+}
+.d5 {
+  background: linear-gradient(to top right, white, rgba(0, 0, 0, 1));
+}
