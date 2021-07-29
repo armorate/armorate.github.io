@@ -203,3 +203,16 @@ ul li a {
 .d05 {
   visibility: hidden;
 }
+.d1,
+.2d,
+.3d,
+.4d,
+.5d,
+.6d {
+  width: 150px;
+  height: 150px;
+  display: flex;
+}
+.d1 {
+  background: linear-gradient(red, green);
+}
