@@ -204,15 +204,22 @@ ul li a {
   visibility: hidden;
 }
 .d1,
-.2d,
-.3d,
-.4d,
-.5d,
-.6d {
+.d2,
+.d3,
+.d4,
+.d5,
+.d6 {
   width: 150px;
   height: 150px;
-  display: flex;
+  margin: 6px;
 }
 .d1 {
   background: linear-gradient(red, green);
+}
+.d2 {
+  background: linear-gradient(
+    to top,
+    red,
+    green
+  ); /* ny default its "to bottom" */
 }
