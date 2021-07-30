@@ -289,3 +289,26 @@ ul li a {
   height: 90px;
   width: 33vw;
 }
+.d20 {
+  border: 4px red solid;
+  margin-top: 320px;
+  background: violet;
+  /*position: static; */
+  position: relative;
+}
+.d21 {
+  background: yellow;
+  position: relative;
+  top: 40px;
+  left: 20rem;
+}
+.d22 {
+  background: #09b1d0;
+}
+.d23 {
+  font-size: 25px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
