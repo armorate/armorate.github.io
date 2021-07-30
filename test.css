@@ -312,3 +312,16 @@ ul li a {
   top: 0;
   right: 5px;
 }
+.d24 {
+  text-align: justify;
+  color: rgb(11, 133, 51);
+}
+.d25 {
+  font-size: 20px;
+  border-radius: 14px;
+  border: red 2px;
+  background: red;
+  position: fixed;
+  bottom: 300px;
+  left: 10px;
+}
