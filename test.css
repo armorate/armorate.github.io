@@ -271,3 +271,21 @@ ul li a {
 .op6 {
   clear: right;
 }
+.d11 {
+  float: left;
+  background: rgb(0, 255, 0);
+  height: 100px;
+  width: 33vw;
+}
+.d12 {
+  float: left;
+  background: rgb(0, 0, 255);
+  height: 120px;
+  width: 31vw;
+}
+.d13 {
+  float: left;
+  background: white;
+  height: 90px;
+  width: 33vw;
+}
