@@ -254,3 +254,20 @@ ul li a {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.8));
   background: url(/media/beach.jpg) center/cover fixed no-repeat; /* order */
 }
+.op3 {
+  border: 4px tomato solid;
+  padding: 12px;
+  overflow: hidden; /* it hides the part of object out of the border*/
+}
+.op4 {
+  float: left;
+  height: 400px;
+  margin-right: 22px;
+}
+.op5 {
+  float: right;
+  margin-bottom: -6px;
+}
+.op6 {
+  clear: right;
+}
