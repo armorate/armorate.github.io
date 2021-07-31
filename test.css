@@ -18,7 +18,24 @@
   padding-left: 60px;
   margin-left: auto;
   margin-right: auto;
+  background: #09b1d0;
+  color: brown;
+  text-align: center;
   font-family: "Zen Tokyo Zoo", cursive; /* the "Zen Tokyo Zoo"(imported grom google fonts) font is only gonna work when connected to internet other the default font from the family will show-up */
+}
+@media screen and (min-width: 800px) {
+  #top {
+    background: crimson;
+    color: cyan;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #top {
+    background:seashell;
+    color: darkblue;
+    font-size: 70px;
+  }
 }
 .banner /* a banner */ {
   width: 50vw; /* vw - view width */
