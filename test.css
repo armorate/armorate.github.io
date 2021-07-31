@@ -3,7 +3,6 @@
   /* universal selector */ /* usually used to reset the default browser style */
   color: rgb(128, 115, 64);
 }
-
 #top {
   text-decoration: line-through;
   color: rgba(
@@ -75,7 +74,7 @@
   left: 30%;
   height: 100px;
   width: 100px;
-  position: static;
+  position: absolute;
   z-index: 5; /* z-index does'nt work for static element */
 }
 .banner /* a banner */ {
