@@ -23,7 +23,10 @@
   text-align: center;
   font-family: "Zen Tokyo Zoo", cursive; /* the "Zen Tokyo Zoo"(imported grom google fonts) font is only gonna work when connected to internet other the default font from the family will show-up */
 }
-@media screen and (min-width: 800px) {
+.p01 {
+  font-size: 20px;
+}
+.p01::before @media screen and (min-width: 800px) {
   #top {
     background: crimson;
     color: cyan;
