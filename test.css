@@ -24,8 +24,24 @@
 }
 .p01 {
   font-size: 20px;
+  font-style: italic;
+  color: chartreuse;
 }
-.p01::before @media screen and (min-width: 800px) {
+.p01::before {
+  content: "psuedo element";  /* psuedo element */
+  color: #e0ca3c;
+  font-size: 40px;
+  font-weight: bold;
+}
+.p01::after {
+  content: "royale";
+  color: aqua;
+  font-size: 24px;
+  font-style: normal;
+  display: block;
+  background: blueviolet;
+}
+@media screen and (min-width: 800px) {
   #top {
     background: crimson;
     color: cyan;
@@ -39,6 +55,7 @@
     font-size: 70px;
   }
 }
+
 .img1 {
   border: 6px rgb(0, 255, 0) solid;
   height: 80vh;
