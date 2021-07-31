@@ -70,7 +70,20 @@
   text-transform: capitalize;
   font-size: 24px;
 }
-
+.p42 {
+  font-family: monospace;
+  letter-spacing: 18px;
+  font-weight: bold;
+  color: beige;
+  margin-bottom: 60px;
+}
+.p42::first-line {
+  font-size: 32px;
+  color: #e0ca3c;
+}
+.p42::first-letter {
+  font-size: 77px;
+}
 .img2 {
   border: 2px red solid;
   position: relative;
