@@ -55,6 +55,22 @@
     font-size: 70px;
   }
 }
+#test1 {
+  font-size: 36px;
+  color: #09b1d0;
+  text-transform: uppercase;
+}
+.test1 {
+  color: #e0ca3c; /* it won't work bcoz the h1 is under a list */
+}
+.test1 h1 {
+  /* child and descendent */
+  /* this is how we define style for elements inside a list */
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
 .img2 {
   border: 2px red solid;
   position: relative;
