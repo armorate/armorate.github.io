@@ -32,10 +32,48 @@
 }
 @media screen and (min-width: 900px) {
   #top {
-    background:seashell;
+    background: seashell;
     color: darkblue;
     font-size: 70px;
   }
+}
+.img1 {
+  border: 6px rgb(0, 255, 0) solid;
+  height: 80vh;
+  width: 45vw;
+  position: relative;
+  margin: 10px;
+}
+.i1 {
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: 1; /* z-index decides the place of element on z-axis */
+}
+.i2 {
+  top: 10%;
+  left: 10%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+.i3 {
+  top: 20%;
+  left: 20%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: -1;
+}
+.i4 {
+  top: 30%;
+  left: 30%;
+  height: 100px;
+  width: 100px;
+  position: static;
+  z-index: 5; /* z-index does'nt work for static element */
 }
 .banner /* a banner */ {
   width: 50vw; /* vw - view width */
