@@ -46,7 +46,19 @@
   text-decoration: line-through;
   background-color: rgb(18, 27, 24);
 }
-@media screen and (min-width: 800px) {
+.al:hover {
+  background: indigo;
+}
+.al:link {
+  color: #e64bd4;
+}
+.al:visited {
+  color: red;
+}
+.al:active {
+  color: green;
+}
+a @media screen and (min-width: 800px) {
   #top {
     background: crimson;
     color: cyan;
