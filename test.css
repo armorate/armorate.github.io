@@ -41,6 +41,11 @@
   display: block;
   background: blueviolet;
 }
+.p01:hover {
+  color: #e64bd4;
+  text-decoration: line-through;
+  background-color: rgb(18, 27, 24);
+}
 @media screen and (min-width: 800px) {
   #top {
     background: crimson;
@@ -357,7 +362,6 @@ ul li a {
     green
   ); /* ny default its "to bottom" */
 }
-
 .d3 {
   background: linear-gradient(48deg, red, green);
 }
