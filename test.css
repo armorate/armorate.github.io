@@ -221,9 +221,9 @@ h5 {
   height: 80px;
   background-color: chartreuse;
 }
-.inner /* percent - relative values*//* only works with div tag*/
-{
-  width: 80%;
+.inner {
+  width: 80%; /* percent - relative values*/ /* only works with div tag*/
+
   height: 50%;
   background-color: chocolate;
 }
