@@ -337,10 +337,30 @@ ul li a {
 }
 .t1,
 .t2,
-.t3 {
+.t3 .t4,
+.t5,
+.t6 {
   height: 150px;
   width: 150px;
   display: inline-block;
+}
+.t1 {
+  background: red;
+  transform: translateX(-30px);
+  transform: translateY(
+    -30%
+  ); /* this percent value is in respect to element height(here 150px) */
+  /* transform: translate(40px, 100px); */
+}
+.t2 {
+  background: green;
+  transform: scaleX(0.7); /* it cut-outs the part(0.15%) from each side */
+}
+.t3 {
+  background: blue;
+  transform: rotatex(
+    64deg
+  ); /* if I make the ratatex or ratateY value 90 then the 2D element will not be visible */
 }
 .d01,
 .d02,
