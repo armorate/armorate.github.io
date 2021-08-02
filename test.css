@@ -335,6 +335,13 @@ ul li a {
   /* background-position: center; */
   background-position: 40% 90%;
 }
+.t1,
+.t2,
+.t3 {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
 .d01,
 .d02,
 .d03,
