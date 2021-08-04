@@ -375,6 +375,14 @@ ul li a {
   background: #fff;
   transform: skew(30deg, 45deg);
 }
+.t1:hover,
+.t2:hover,
+.t3:hover,
+.t4:hover,
+.t5:hover,
+.t6:hover {
+  background: #45f3d7;
+}
 .d01,
 .d02,
 .d03,
