@@ -357,15 +357,17 @@ ul li a {
 }
 .t2 {
   background: green;
-  transform: scaleX(0.7); /* it cut-outs the part(0.15%) from each side */
+  transform: scaleX(0.7);
+  /* it cut-outs the part(0.15%) from each side */
+  transition: all 1s 3s;
 }
 .t3 {
   background: blue;
   transform: rotatex(
     64deg
   ); /* if I make the ratatex or ratateY value 90 then the 2D element will not be visible */
-  transition-property: background;
-  transition-duration: 3s;
+  transition: background 3s 2s, border-radius 1.2s 2s;
+  /* here first time is transition-duration and second is transition-delay */
 }
 .t4 {
   background: #e0ca3c;
@@ -391,6 +393,13 @@ ul li a {
 }
 .t1:hover {
   border-radius: 20%;
+}
+.t2:hover {
+  border-radius: 50%;
+  border: #fff 4px solid;
+}
+.t3:hover {
+  border-radius: 25%;
 }
 .t6:hover {
   background: #00f300;
