@@ -442,6 +442,45 @@ ul li a {
 .t16 {
   transition-timing-function: ease-in-out;
 }
+.transition,
+.animation {
+  width: 150px;
+  height: 120px;
+  color: antiquewhite;
+  margin: 5px;
+}
+.transition {
+  background: blueviolet;
+  transition: all 1s linear;
+}
+.transition:hover {
+  background: chartreuse;
+  transform: translateX(100px);
+}
+.animation {
+  background: hotpink;
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2; */
+  animation: move 10s 3;
+}
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: chocolate;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: gainsboro;
+  }
+  100% {
+    transform: translateX(20px);
+    background: hotpink;
+  }
+}
 .d01,
 .d02,
 .d03,
