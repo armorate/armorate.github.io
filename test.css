@@ -366,6 +366,8 @@ ul li a {
 .t4 {
   background: #e0ca3c;
   transform: skew(40deg);
+  transition-property: background;
+  transition-duration: 3s;
 }
 .t5 {
   background: #e64bd4;
@@ -373,7 +375,7 @@ ul li a {
 }
 .t6 {
   background: #fff;
-  transform: skew(30deg, 45deg);
+  transform: skew(30deg, 15deg);
 }
 .t1:hover,
 .t2:hover,
@@ -381,7 +383,12 @@ ul li a {
 .t4:hover,
 .t5:hover,
 .t6:hover {
-  background: #45f3d7;
+  background: #4503d7;
+}
+.t6:hover {
+  background: #00f300;
+  border-radius: 50%;
+  transition-duration: 1s;
 }
 .d01,
 .d02,
