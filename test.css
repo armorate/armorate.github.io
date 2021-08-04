@@ -352,6 +352,8 @@ ul li a {
     -30%
   ); /* this percent value is in respect to element height(here 150px) */
   /* transform: translate(40px, 100px); */
+  transition-property: border-radius;
+  transition-duration: 0.4s;
 }
 .t2 {
   background: green;
@@ -362,22 +364,24 @@ ul li a {
   transform: rotatex(
     64deg
   ); /* if I make the ratatex or ratateY value 90 then the 2D element will not be visible */
+  transition-property: background;
+  transition-duration: 3s;
 }
 .t4 {
   background: #e0ca3c;
   transform: skew(40deg);
-  transition-property: background;
-  transition-duration: 3s;
 }
 .t5 {
   background: #e64bd4;
   transform: skewY(67deg);
+  transition-delay: 3s;
 }
 .t6 {
   background: #fff;
   transform: skew(30deg, 15deg);
+  transition-property: border-radius, background;
+  transition-duration: 1s, 4s;
 }
-.t1:hover,
 .t2:hover,
 .t3:hover,
 .t4:hover,
@@ -385,10 +389,12 @@ ul li a {
 .t6:hover {
   background: #4503d7;
 }
+.t1:hover {
+  border-radius: 20%;
+}
 .t6:hover {
   background: #00f300;
   border-radius: 50%;
-  transition-duration: 1s;
 }
 .d01,
 .d02,
