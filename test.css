@@ -63,7 +63,7 @@
 .al:active {
   color: green;
 }
-a @media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   #top {
     background: crimson;
     color: cyan;
@@ -369,7 +369,7 @@ ul li a {
 }
 .t4 {
   background: #e0ca3c;
-  transform: skew(40deg);
+  transform: skew(-41deg);
 }
 .t5 {
   background: #e64bd4;
