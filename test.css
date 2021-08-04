@@ -405,6 +405,27 @@ ul li a {
   background: #00f300;
   border-radius: 50%;
 }
+.t11,
+.t12,
+.t13,
+.t14,
+.t15,
+.t16 {
+  height: 120px;
+  width: 120px;
+  background: rgb(0, 0, 255);
+  color: #fff;
+  margin: 20px;
+  transition: all 1s;
+}
+.t11:hover,
+.t12:hover,
+.t13:hover,
+.t14:hover,
+.t15:hover,
+.t16:hover {
+  b
+}
 .d01,
 .d02,
 .d03,
