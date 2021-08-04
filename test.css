@@ -424,7 +424,23 @@ ul li a {
 .t14:hover,
 .t15:hover,
 .t16:hover {
-  b
+  transform: translateX(100px);
+}
+/* transition-timing-function(s)  */
+.t12 {
+  transition-timing-function: ease;
+}
+.t13 {
+  transition-timing-function: linear;
+}
+.t14 {
+  transition-timing-function: ease-in;
+}
+.t15 {
+  transition-timing-function: ease-out;
+}
+.t16 {
+  transition-timing-function: ease-in-out;
 }
 .d01,
 .d02,
