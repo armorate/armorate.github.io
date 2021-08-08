@@ -462,7 +462,7 @@ ul li a {
   /* animation-name: move;
   animation-duration: 10s;
   animation-iteration-count: 2; */
-  animation: move 10s 3;
+  animation: move 10s infinite;
 }
 @keyframes move {
   0% {
