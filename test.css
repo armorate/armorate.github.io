@@ -493,7 +493,7 @@ ul li a {
   }
   25% {
     transform: translateX(200px);
-    opacity: 0.25;
+    opacity: 0.35;
   }
   50% {
     transform: translateX(-100px);
