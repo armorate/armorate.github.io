@@ -443,7 +443,8 @@ ul li a {
   transition-timing-function: ease-in-out;
 }
 .transition,
-.animation {
+.animation,
+.animation1 {
   width: 150px;
   height: 120px;
   color: antiquewhite;
@@ -483,7 +484,8 @@ ul li a {
 }
 .animation1 {
   background: rgb(0, 255, 0);
-  animation: move 4s infinite;
+  animation: move 4s 2;
+  animation-fill-mode: forwards;
 }
 @keyframes move {
   0% {
