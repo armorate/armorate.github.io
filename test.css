@@ -253,9 +253,8 @@ h5 {
   height: 200px;
   background: rgb(0, 255, 0);
   margin: 20px;
-  box-shadow: 5px 10px 170px -11px #2B69BF;
+  box-shadow: 5px 10px 170px -11px #2b69bf;
   /* (box-shadow: positinX positinY shadow-size shadow-spread color;) propertie for showing box-shadow.  */
-}
 }
 .relative1 {
   font-size: 1em; /* em is relative to the parent (1em = 16px default browser style = base value) */
