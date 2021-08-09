@@ -8,6 +8,7 @@
   background: rgb(39, 38, 34);
   margin-top: -30px;
   --h1xcolor: #1213f4;
+  /* CSS variable */
   --xtransition: all 0.4s linear;
 }
 #top {
@@ -236,6 +237,14 @@ h5 {
 }
 .h13:hover {
   color: var(--h1xcolor);
+}
+.d31 {
+  /* we can also use div for defining local varaible here */
+  --color3x: #23e44e;
+  /* we can't use this variable out of this .d31 class */
+}
+.text2 {
+  color: var(--color3x);
 }
 .relative1 {
   font-size: 1em; /* em is relative to the parent (1em = 16px default browser style = base value) */
