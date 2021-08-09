@@ -230,7 +230,8 @@ h5 {
 }
 .h11 {
   color: var(--h1xcolor);
-  text-shadow: 2px 2px 4px red;
+  text-shadow: 4px -3px 17px rgba(150, 150, 106, 1);
+  /* (text-shadow: positinX positinY shadow-size color;) propertie for showing text-shadow.  */
 }
 .h12 {
   color: var(--h1xcolor);
@@ -246,6 +247,15 @@ h5 {
 }
 .text2 {
   color: var(--color3x);
+}
+.box11 {
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 255, 0);
+  margin: 20px;
+  box-shadow: 5px 10px 170px -11px #2B69BF;
+  /* (box-shadow: positinX positinY shadow-size shadow-spread color;) propertie for showing box-shadow.  */
+}
 }
 .relative1 {
   font-size: 1em; /* em is relative to the parent (1em = 16px default browser style = base value) */
