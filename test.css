@@ -230,6 +230,7 @@ h5 {
 }
 .h11 {
   color: var(--h1xcolor);
+  text-shadow: 2px 2px 4px red;
 }
 .h12 {
   color: var(--h1xcolor);
