@@ -7,6 +7,8 @@
   /* font-size: 110%; /* we use root element to change properties globally, rem values depend on this */
   background: rgb(39, 38, 34);
   margin-top: -30px;
+  --h1xcolor: #1213f4;
+  --xtransition: all 0.4s linear;
 }
 #top {
   text-decoration: line-through;
@@ -225,7 +227,16 @@ h5 {
   text-transform: uppercase;
   text-decoration: overline;
 }
-
+.h11 {
+  color: var(--h1xcolor);
+}
+.h12 {
+  color: var(--h1xcolor);
+  transition: var(--xtransition);
+}
+.h13:hover {
+  color: var(--h1xcolor);
+}
 .relative1 {
   font-size: 1em; /* em is relative to the parent (1em = 16px default browser style = base value) */
 }
