@@ -28,7 +28,8 @@
   background: #09b1d0;
   color: brown;
   text-align: center;
-  font-family: "Zen Tokyo Zoo", cursive; /* the "Zen Tokyo Zoo"(imported grom google fonts) font is only gonna work when connected to internet other the default font from the family will show-up */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; /* the "Zen Tokyo Zoo"(imported grom google fonts) font is only gonna work when connected to internet other the default font from the family will show-up */
 }
 .p01 {
   font-size: 20px;
