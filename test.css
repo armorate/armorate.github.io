@@ -5,8 +5,8 @@
 }
 :root {
   /* font-size: 110%; /* we use root element to change properties globally, rem values depend on this */
-  background: rgb(39, 38, 34);
-  margin-top: -30px;
+  background: rgb(39, 48, 74);
+  margin-top: -6px;
   --h1xcolor: #1213f4;
   /* CSS variable */
   --xtransition: all 0.4s linear;
