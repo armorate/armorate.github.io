@@ -675,11 +675,12 @@ ul li a {
   color: rgb(11, 133, 51);
 }
 .d25 {
-  font-size: 20rem;
+  font-size: 1rem;
+  font-weight: bold;
   border-radius: 8px;
-  border: #fff 1px;
+  border: 4px #fff solid;
   background: #e0ca3c;
   position: fixed;
-  bottom: 90rem;
-  left: 8rem;
+  bottom: 600px;
+  left: 8px;
 }
