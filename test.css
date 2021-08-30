@@ -378,6 +378,7 @@ ul li a {
   height: 150px;
   width: 150px;
   display: inline-block;
+  margin-left: 4rem;
 }
 .t1 {
   background: red;
@@ -391,9 +392,9 @@ ul li a {
 }
 .t2 {
   background: green;
-  transform: scaleX(0.7);
+  transform: scaleX(2.7);
   /* it cut-outs the part(0.15%) from each side */
-  transition: all 1s 3s;
+  transition: all 1s 2s;
 }
 .t3 {
   background: blue;
