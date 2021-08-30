@@ -598,8 +598,6 @@ ul li a {
   display: flex;
   text-align: center;
   justify-content: center;
-  font-size: 60px;
-  color: tomato;
 }
 .op1 {
   background: url(/media/jupiter.jpg);
@@ -611,6 +609,7 @@ ul li a {
 .op2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.8));
   background: url(/media/beach.jpg) center/cover fixed no-repeat; /* order */
+  color: tomato;
 }
 .op3 {
   border: 4px tomato solid;
