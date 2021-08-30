@@ -48,7 +48,7 @@
   font-size: 24px;
   font-style: normal;
   display: block;
-  background: blueviolet;
+  background: rgba(024, 44, 96, 0.2);
 }
 .p01:hover {
   color: #e64bd4;
