@@ -53,7 +53,7 @@
 .p01:hover {
   color: #e64bd4;
   text-decoration: line-through;
-  background-color: rgb(18, 211, 24);
+  background-color: rgb(18, 1, 24);
 }
 .al:hover {
   background: indigo;
@@ -431,7 +431,7 @@ ul li a {
 }
 .t2:hover {
   border-radius: 50%;
-  border: #fff 4px solid;
+  border: #fff 8px solid;
 }
 .t3:hover {
   border-radius: 25%;
