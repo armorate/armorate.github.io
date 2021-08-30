@@ -679,10 +679,11 @@ ul li a {
 .d25 {
   font-size: 1rem;
   font-weight: bold;
+  color: #fff;
   border-radius: 8px;
-  border: 4px #fff solid;
-  background: #e0ca3c;
+  border: 4px #0f4505 solid;
+  background: rgba(111, 123, 123, 0.3);
   position: fixed;
-  bottom: 600px;
+  bottom: 60px;
   left: 8px;
 }
