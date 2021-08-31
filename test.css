@@ -44,7 +44,8 @@
 }
 .p01::after {
   content: "royale";
-  color: aqua;
+  text-align: right;
+  color: rgba(124, 196, 238, 0.479);
   font-size: 24px;
   font-style: normal;
   display: block;
