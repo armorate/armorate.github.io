@@ -6,7 +6,7 @@
 :root {
   /* font-size: 110%; /* we use root element to change properties globally, rem values depend on this */
   background: rgb(39, 48, 74);
-  margin-top: -86px;
+  /*margin-top: -86px;*/
   --h1xcolor: #1213f4;
   /* CSS variable */
   --xtransition: all 0.4s linear;
@@ -687,4 +687,5 @@ ul li a {
   position: fixed;
   bottom: 60px;
   left: 8px;
+  z-index: 2;
 }
