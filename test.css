@@ -147,7 +147,7 @@
   box-sizing: border-box;
 }
 .img1 {
-  border: 6px rgb(0, 255, 0) solid;
+  border: 4px rgba(160, 255, 67, 0.37) solid;
   height: 80vh;
   width: 45vw;
   position: relative;
@@ -174,7 +174,7 @@
   height: 100px;
   width: 100px;
   position: absolute;
-  z-index: -1;
+  z-index: -1; /* Negative value of z-index makes the element disappear */
 }
 .i4 {
   top: 30%;
