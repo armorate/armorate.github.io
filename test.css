@@ -31,6 +31,21 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif; /* the "Zen Tokyo Zoo"(imported grom google fonts) font is only gonna work when connected to internet other the default font from the family will show-up */
 }
+@media screen and (min-width: 800px) {
+  #top {
+    background: crimson;
+    color: cyan;
+    font-size: 80px;
+    font-style: oblique;
+  }
+}
+@media screen and (min-width: 900px) {
+  #top {
+    background: seashell;
+    color: darkblue;
+    font-size: 1rem;
+  }
+}
 .p01 {
   font-size: 20px;
   font-style: italic;
@@ -69,21 +84,6 @@
 }
 .al:active {
   color: green;
-}
-@media screen and (min-width: 800px) {
-  #top {
-    background: crimson;
-    color: cyan;
-    font-size: 80px;
-    font-style: oblique;
-  }
-}
-@media screen and (min-width: 900px) {
-  #top {
-    background: seashell;
-    color: darkblue;
-    font-size: 70px;
-  }
 }
 #test1 {
   font-size: 36px;
