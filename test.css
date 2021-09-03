@@ -198,16 +198,17 @@
   border-style: solid;
   border-bottom-style: dotted;
   border-bottom-color: darkgreen;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
 }
 .banner2  /*  */ {
-  width: 93vw;
+  width: 87vw;
   height: calc(100vh - 96vh); /* calc function (give space inbetween) */
   background-color: #136f63;
   margin-bottom: 32px;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: auto;
   outline: 5px solid #e0ca3c;
-  outline-offset: 12px;
+  /* outline-offset: 12px; */
 }
 a {
   text-decoration: none; /*removes underline from links*/
