@@ -189,24 +189,24 @@
   z-index: 5; /* z-index does'nt work for static element */
 }
 .banner /* a banner */ {
-  width: 50vw; /* vw - view width */
+  width: 55vw; /* vw - view width */
   height: 10vh; /* vh - view hieght */
   background-color: #e0ca3c;
   margin: 6px;
   border-color: rgb(236, 10, 10);
   border-width: 16px;
+  border-bottom-color: darkgreen;
   border-style: solid;
   border-bottom-style: dotted;
-  border-bottom-color: darkgreen;
-  margin-bottom: 10px;
+  border-bottom-width: 9px;
 }
 .banner2  /*  */ {
   width: 87vw;
-  height: calc(100vh - 96vh); /* calc function (give space inbetween) */
+  height: calc(100vh - 86vh); /* calc function (give space inbetween) */
   background-color: #136f63;
+  margin: 3px;
   margin-bottom: 32px;
   margin-top: 50px;
-  margin-left: auto;
   outline: 5px solid #e0ca3c;
   /* outline-offset: 12px; */
 }
