@@ -78,7 +78,7 @@
   background-color: rgb(18, 1, 24);
 }
 .al:hover {
-  background: indigo;
+  background: rgb(145, 62, 204);
 }
 .al:link {
   color: #e647d4;
@@ -206,7 +206,7 @@
   background-color: #136f63;
   margin: 3px;
   margin-bottom: 32px;
-  margin-top: 50px;
+  margin-top: 30px;
   outline: 5px solid #e0ca3c;
   /* outline-offset: 12px; */
 }
@@ -261,7 +261,7 @@ h5 {
 .box11 {
   width: 200px;
   height: 200px;
-  background: rgb(0, 255, 0);
+  background: rgb(65, 139, 65);
   margin: 20px;
   box-shadow: 5px 10px 170px -11px #2b69bf;
   /* (box-shadow: positinX positinY shadow-size shadow-spread color;) propertie for showing box-shadow.  */
@@ -592,7 +592,7 @@ ul li a {
   ); /* ny default its "to bottom" */
 }
 .d3 {
-  background: linear-gradient(48deg, red, green);
+  background: linear-gradient(48deg, rgb(177, 99, 99), green);
 }
 .d4 {
   background: linear-gradient(rgba(111, 48, 255, 0.6), rgba(0, 0, 0, 0.9));
@@ -672,7 +672,7 @@ ul li a {
   background: #09b1d0;
 }
 .d23 {
-  font-size: 18px;
+  font-size: 24px;
   background: #fff;
   position: absolute;
   top: 0;
