@@ -425,7 +425,7 @@ ul li a {
   background: #fff;
   transform: skew(30deg, 15deg);
   transition-property: border-radius, background;
-  transition-duration: 1s, 4s;
+  transition-duration: 1s, 2.5s;
 }
 .t2:hover,
 .t3:hover,
@@ -490,7 +490,7 @@ ul li a {
 .animation1 {
   width: 150px;
   height: 120px;
-  color: antiquewhite;
+  color: rgb(100, 71, 32);
   margin: 5px;
 }
 .transition {
@@ -536,7 +536,7 @@ ul li a {
   }
   25% {
     transform: translateX(200px);
-    opacity: 0.35;
+    opacity: 0.6;
   }
   50% {
     transform: translateX(-100px);
@@ -560,7 +560,7 @@ ul li a {
   display: none;
 }
 .d02 {
-  opacity: 0;
+  opacity: 0.3;
 }
 .d03 {
   opacity: 1;
@@ -672,7 +672,7 @@ ul li a {
   background: #09b1d0;
 }
 .d23 {
-  font-size: 25px;
+  font-size: 18px;
   background: #fff;
   position: absolute;
   top: 0;
