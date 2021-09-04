@@ -598,7 +598,7 @@ ul li a {
   background: linear-gradient(rgba(111, 48, 255, 0.6), rgba(0, 0, 0, 0.9));
 }
 .d5 {
-  background: linear-gradient(to top right, white, rgba(0, 0, 0, 1));
+  background: linear-gradient(to top right, white, rgba(0, 0, 0, 0.75));
 }
 .op1,
 .op2 {
@@ -639,7 +639,7 @@ ul li a {
 }
 .d11 {
   float: left;
-  background: rgb(0, 255, 0);
+  background: rgb(3, 70, 3);
   height: 100px;
   width: 33vw;
 }
