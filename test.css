@@ -582,7 +582,7 @@ ul li a {
   margin: 6px;
 }
 .d1 {
-  background: linear-gradient(red, green);
+  background: linear-gradient(rgb(170, 98, 98), green);
 }
 .d2 {
   background: linear-gradient(
@@ -686,9 +686,9 @@ ul li a {
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 4px #0f4505 solid;
-  background: rgba(111, 123, 123, 0.3);
+  background: rgba(192, 236, 236, 0.3);
   position: fixed;
   bottom: 60px;
   left: 8px;
