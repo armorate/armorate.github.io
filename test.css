@@ -621,8 +621,8 @@ ul li a {
   color: tomato;
 }
 .op3 {
-  border: 4px tomato solid;
-  padding: 12px;
+  border: 3px tomato solid;
+  padding: 16px;
   overflow: hidden; /* it hides the part of object out of the border*/
 }
 .op4 {
@@ -645,7 +645,7 @@ ul li a {
 }
 .d12 {
   float: left;
-  background: rgb(0, 0, 255);
+  background: rgb(75, 24, 134);
   height: 120px;
   width: 31vw;
 }
@@ -656,9 +656,9 @@ ul li a {
   width: 33vw;
 }
 .d20 {
-  border: 4px red solid;
+  border: 4px rgb(41, 138, 70) solid;
   margin-top: 320px;
-  background: violet;
+  background: rgb(230, 12, 230);
   /*position: static; */
   position: relative;
 }
