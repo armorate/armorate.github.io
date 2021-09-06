@@ -204,7 +204,7 @@
   width: 97vw;
   height: calc(100vh - 86vh); /* calc function (give space inbetween) */
   background-color: #136f63;
-  margin: 3px;
+  margin-left: 6px;
   margin-bottom: 32px;
   margin-top: 30px;
   outline: 5px solid #e0ca3c;
