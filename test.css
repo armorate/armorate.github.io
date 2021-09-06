@@ -201,7 +201,7 @@
   border-bottom-width: 9px;
 }
 .banner2  /*  */ {
-  width: 87vw;
+  width: 97vw;
   height: calc(100vh - 86vh); /* calc function (give space inbetween) */
   background-color: #136f63;
   margin: 3px;
