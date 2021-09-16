@@ -1,5 +1,5 @@
 * {
-  background-color: #2c2f33;
+  background-color: #131516;
   color: #ffff;
 }
 .h100 {
@@ -8,6 +8,8 @@
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
+  font-style: oblique;
+  text-shadow: 1px 1px #ff0000;
 }
 .p00 {
   position: absolute;
