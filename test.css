@@ -1,6 +1,7 @@
 * {
   background-color: #131516;
   color: #ffff;
+  /* margin-left: 6vw; */
 }
 .h100 {
   color: rgb(255, 243, 136);
@@ -31,6 +32,9 @@
   color: #d9d9d9ff;
   text-decoration: underline;
 }
+.ul00 {
+  margin-left: 6vw;
+}
 .p02 {
-  margin-top: 2rem;
+  margin-top: 2rem 0 0 6vw;
 }
