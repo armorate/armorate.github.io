@@ -12,6 +12,9 @@
   font-style: oblique;
   text-shadow: 1px 1px #ff0000;
 }
+.a_h1 {
+  text-decoration: none;
+}
 .p00 {
   position: absolute;
   width: 40vw;
