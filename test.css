@@ -41,6 +41,10 @@
 .ul01 {
   margin-left: 6vw;
   text-decoration: none;
+  border: 4px #4d7 solid;
+  background: rgba(40, 80, 40, 0.7);
+  border-radius: 7px;
+  width: fit-content;
 }
 .p02 {
   margin-top: 2rem 0 0 6vw;
