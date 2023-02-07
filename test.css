@@ -46,9 +46,8 @@
   width: fit-content;
 }
 .p02 {
-  margin-top: 2rem 0 0 6vw;
+  /* margin-top: 2rem 0 0 6vw; */
   width: fit-content;
-
   background: rgba(52, 114, 68, 0.8);
   border: 1px rgb(60, 99, 73) solid;
 }
