@@ -33,12 +33,18 @@
   margin-top: 2rem;
 }
 .ul00,
-.ul01 {
+.ul01,
+.ul02 {
   margin-left: 6vw;
   text-decoration: none;
   background: rgba(64, 75, 64, 0.7);
   border-radius: 2px;
   width: fit-content;
+}
+p.ul02 {
+  background-color: rgb(23, 85, 85);
+  font-weight: bold;
+  padding: 4px;
 }
 .p02 {
   /* margin-top: 2rem 0 0 6vw; */
