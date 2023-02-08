@@ -7,28 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>armorate's favourite movies</title>
     <style>
-        th,
-        tr,
-        td {
-            border: 3px rgb(159, 72, 185);
+        * {
+            background-color: rgb(73, 71, 69);
+            color: #fff;
+        }
+
+        table,
+        td,
+        th {
+            border: 3px solid rgb(159, 72, 185);
             border-collapse: collapse;
             text-align: left;
-            padding: 2px;
+            padding: 4px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <p>My favourite movies...</p>
+        <h2>My favourite movies...</h2>
     </header>
     <main>
         <table>
-            <th>
-            <td>Name</td>
-            <td>Release</td>
-            <td>Rating</td>
-            </th>
+            <thead>
+                <tr>
+                    <th colspan="3" style="text-align: center;">Movies</th>
+                </tr>
+            </thead>
+            <tr>
+                <th>Name</th>
+                <th>Release</th>
+                <th>Rating</th>
+            </tr>
             <tr>
                 <td>Masaan</td>
                 <td>2017</td>
