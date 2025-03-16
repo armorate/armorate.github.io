@@ -7,12 +7,12 @@
   text-decoration: none;
   color: rgb(255, 243, 136);
   font-family: monospace;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-style: oblique;
-  text-shadow: 1px 1.2px #e60b0b;
+  text-shadow: 1px .2px #e60b0b;
 }
 .p00 {
   position: absolute;
